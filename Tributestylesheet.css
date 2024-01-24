@@ -76,3 +76,9 @@ img{
   #year{
      text-decoration-line: underline;
   }
+
+@media screen and (max-width:600px) {
+    #main {
+        padding: 10px 0;
+    }
+}
