@@ -1,84 +1,89 @@
 body{
-    text-align: center;
-    font-family: Verdana, Tahoma;
-    margin: 0;
-    padding: 0;
+  text-align: center;
+  font-family: Verdana, Tahoma;
+  margin: 0;
+  padding: 0;
 }
 
 .background{
-  position: relative; 
-    height: 100hv;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+position: relative; 
+  height: 100hv;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .background::before{
-  content: "";
-  background-image: url(https://i1.sndcdn.com/artworks-000097644124-cwsfio-t500x500.jpg);
-  background-size: cover;
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-  opacity: .7;
+content: "";
+background-image: url(https://i1.sndcdn.com/artworks-000097644124-cwsfio-t500x500.jpg);
+background-size: cover;
+position: absolute;
+top: 0px;
+right: 0px;
+bottom: 0px;
+left: 0px;
+opacity: .7;
 }
 
 h1 {
-  font-size: 3rem;
-  margin-bottom: 0;
+font-size: 3rem;
+margin-bottom: 0;
 }
 
 #main{
-  margin: 30px 8px;
-  padding: 10px;
-  position: relative;
+margin: 30px 8px;
+padding: 10px;
+position: relative;
 }
 
 img{
-  display: block;
-  max-width: 100%;
-  height: auto;
-  margin: 0 auto;
+display: block;
+max-width: 100%;
+height: auto;
+margin: 0 auto;
 }
 
 #img-div{
-  background: white;
-  padding: 10px 10px 20px 10px;
-  border-radius: 10px;
-  }
+background: white;
+padding: 10px 10px 20px 10px;
+border-radius: 10px;
+}
 
-  #img-caption{
-    margin: 10px 0 -5px 0;
-    font-size: 17;
-  }
+#img-caption{
+  margin: 10px 0 -5px 0;
+  font-size: 17;
+}
 
-  ul{
-    text-align: left;
-    min-width: 300px;
-    max-width: 1000px;
-    margin: 0 auto 30px auto;
-    line-height: 1.5;
-  }
+ul{
+  text-align: left;
+  min-width: 300px;
+  max-width: 1000px;
+  margin: 0 auto 30px auto;
+  line-height: 1.5;
+}
 
-  li{
-    margin: 15px 0;
-  }
+li{
+  margin: 15px 0;
+}
 
-  #tribute-info{
-    font-size: 24px;
-    line-height: 1.7;
-    font-family: "Oswald";
-  }
+#tribute-info{
+  font-size: 24px;
+  line-height: 1.7;
+  font-family: "Oswald";
+}
 
-  #year{
-     text-decoration-line: underline;
-  }
+#year{
+   text-decoration-line: underline;
+}
 
 @media screen and (max-width:600px) {
-    #main {
-        padding: 10px 0;
-    }
+  #main {
+      padding: 10px 0;
+  }
+
+  li {
+    margin-right: 10px;
+  }
+
 }
